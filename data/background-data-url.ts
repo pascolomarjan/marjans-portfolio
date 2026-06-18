@@ -1,0 +1,1 @@
+export const dataUrl: string = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAQAAADWbbXjAAAAEUlEQVR42mP8X8+AARhpIAgAzcwHfOZ2yzEAAAAASUVORK5CYII=";
