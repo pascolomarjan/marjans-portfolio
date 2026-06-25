@@ -16,7 +16,7 @@ export default function ParagraphComponent(
                 </CardHeader>
                 <CardBody>
                     <br/>
-                    <div className="bg-[#f4f4f4]">
+                    <div>
                         <p className="text-justify max-w-prose ">{paragraph.content}</p>
                     </div>
                 </CardBody>

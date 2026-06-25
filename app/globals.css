@@ -4,7 +4,10 @@
     --background: #ffffff;
     --foreground: #171717;
     --main-color: #2c4c7e;
-    --card-background: #f0ebe4
+    --card-background: #f4f4f4;
+    --footer-background: #171717;
+    --footer-foreground: #ffffff;
+
 }
 
 @theme inline {
@@ -12,6 +15,8 @@
     --color-foreground: var(--foreground);
     --color-card: var(--card-background);
     --color-main: var(--main-color);
+    --color-footerbg: var(--footer-background);
+    --color-footerfg: var(--footer-foreground);
     --spacing-md-padding-x: 6rem;
     --spacing-sm-padding-x: 3rem;
 }
@@ -21,6 +26,9 @@
         --background: #0a0a0a;
         --foreground: #f0ebe4;
         --main-color: #2c4c7e;
+        --card-background: #232323;
+        --footer-background: #232323;
+        --footer-foreground: #f0ebe4;
     }
 }
 

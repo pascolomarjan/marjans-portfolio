@@ -25,7 +25,7 @@ export default function NavWrapper({children}: { children: React.ReactNode }) {
 
             <aside className={clsx(
                 `fixed md:hidden h-screen \
-        inset-y-0 left-0 z-40 w-64 p-12 pt-18 bg-white \
+        inset-y-0 left-0 z-40 w-64 p-12 pt-18 bg-background \
         transition-transform duration-300 md:translate-x-0`,
                 {
                     "translate-x-0": isOpen,
@@ -37,7 +37,7 @@ export default function NavWrapper({children}: { children: React.ReactNode }) {
 
             <div className="flex-1 pt-0">
                 <div
-                    className="flex flex-row gap-8 justify-end md:justify-between md:items-center w-full sticky top-0 bg-white px-sm-padding-x md:px-md-padding-x z-15">
+                    className="flex flex-row gap-8 justify-end md:justify-between md:items-center w-full sticky top-0 bg-background px-sm-padding-x md:px-md-padding-x z-15">
                     <div className="hidden md:block py-6">
                         <Navbar/>
                     </div>

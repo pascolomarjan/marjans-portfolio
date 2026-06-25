@@ -16,7 +16,7 @@ export function CardHeader({ children }: CardProps) {
 
 export function CardBody({ children }: CardProps) {
     return (
-        <div className="bg-[#f4f4f4] py-6 px-12 md:px-24 grow">
+        <div className="bg-card py-6 px-12 md:px-24 grow">
             {children}
         </div>
     );
